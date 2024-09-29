@@ -30,8 +30,8 @@ export default function Header() {
                 className={styles.buttonPrimary}
                 onClick={(e) => {
                   e.preventDefault()
-                  signIn("worldcoin") // when worldcoin is the only provider
-                  // signIn() // when there are multiple providers
+                  // signIn("worldcoin") // when worldcoin is the only provider
+                  signIn() // when there are multiple providers
                 }}
               >
                 Sign in
